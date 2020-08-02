@@ -1,8 +1,10 @@
 # 7-days-of-go
 
-> Learn everything about Go in 7 days
+*Learn everything about Go 🐹 in 7 days.*
 
-![roadmap](./images/roadmap.png)
+![roadmap](./assets/roadmap.png)
+
+*[PDF file](./assets/roadmap.pdf)*
 
 ## documents
 
