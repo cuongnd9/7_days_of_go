@@ -67,6 +67,48 @@ complex64 complex128
 | int32  	| -2147483648 – 2147483647                   	|
 | int64  	| -9223372036854775808 – 9223372036854775807 	|
 
+### pointer
+
+> A pointer is a variable which stores the memory address of another variable.
+
+![pointer](../assets/pointer.png)
+
+#### Zero value of a pointer
+
+> The zero value of a pointer is nil.
+
+```go
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    a := 25
+    var b *int
+    if b == nil {
+        fmt.Println("b is", b)
+        b = &a
+        fmt.Println("b after initialization is", b)
+    }
+}
+// b is <nil>
+// b after initialisation is 0x1040a124
+```
+
+> In Go, nil is the **Zero Value** for channels, slices, maps, interfaces, function, and pointer types.
+
+> Zero Value is a default value which is obtained by declaring a variable without initializing it.
+
+### 🎢 slices
+
+> A slice is a convenient, flexible and powerful wrapper on top of an array. Slices do not own any data on their own. They are the just references to existing arrays.
+
+> A slice does not own any data of its own. It is just a representation of the underlying array. Any modifications done to the slice will be reflected in the underlying array.
+
+#### length and capacity of a slice
+
 ## documents
 
 - [How To Install Go and Set Up a Local Programming Environment on macOS](https://www.digitalocean.com/community/tutorials/how-to-install-go-and-set-up-a-local-programming-environment-on-macos)
@@ -77,3 +119,5 @@ complex64 complex128
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
 
 <img style="margin-left: 40px" alt="golang-for-nodejs-developers" src="https://github-readme-stats.vercel.app/api/pin/?username=miguelmota&repo=golang-for-nodejs-developers" />
+
+- [Understanding Go's `nil` value](https://www.gmarik.info/blog/2016/understanding-golang-nil-value/)
