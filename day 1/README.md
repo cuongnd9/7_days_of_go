@@ -34,6 +34,46 @@ export PATH=$PATH:$GOPATH/bin
 source ~/.zshrc
 ```
 
+## 📒 notes
+
+### 🥚 basic types
+
+```
+bool
+
+string
+
+int  int8  int16  int32  int64
+uint uint8 uint16 uint32 uint64 uintptr
+
+byte // alias for uint8
+
+rune // alias for int32
+     // represents a Unicode code point
+
+float32 float64
+
+complex64 complex128
+```
+
+|  type  	|                    limit                   	|
+|:------:	|:------------------------------------------:	|
+| uint8  	| 0 – 255                                    	|
+| uint16 	| 0 – 65535                                  	|
+| uint32 	| 0 – 4294967295                             	|
+| uint64 	| 0 – 18446744073709551615                   	|
+| int8   	| -128 – 127                                 	|
+| int16  	| -32768 – 32767                             	|
+| int32  	| -2147483648 – 2147483647                   	|
+| int64  	| -9223372036854775808 – 9223372036854775807 	|
+
 ## documents
 
 - [How To Install Go and Set Up a Local Programming Environment on macOS](https://www.digitalocean.com/community/tutorials/how-to-install-go-and-set-up-a-local-programming-environment-on-macos)
+- [fly-with-go](https://github.com/103cuong/fly-with-go)
+
+<img style="margin-left: 40px" alt="fly-with-go" src="https://github-readme-stats.vercel.app/api/pin/?username=103cuong&repo=fly-with-go" />
+
+- [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
+
+<img style="margin-left: 40px" alt="golang-for-nodejs-developers" src="https://github-readme-stats.vercel.app/api/pin/?username=miguelmota&repo=golang-for-nodejs-developers" />
