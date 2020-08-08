@@ -1,3 +1,5 @@
+<img src="./assets/gopher.jpg" align="right" width="300" />
+
 # 7-days-of-go
 
 <img src="./assets/learn_go.png" width="500" />

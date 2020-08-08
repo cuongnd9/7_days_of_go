@@ -1,35 +1,28 @@
 package main
 
-import "fmt"
-
-func main() {
+func main()  {
   ch := make(chan string)
 
-  fmt.Println("start...")
+  go greet(ch)
 
-  go sayHi("Cuong", ch)
-  go sayHi("Nhung", ch)
-  fmt.Println("🌲 data: ", <-ch, <-ch)
-
-  fmt.Println("before closing...")
-  close(ch)
-  fmt.Println("after closing...")
-
-  go sayHi("Thu", ch)
-
-  fmt.Println("🌳 data: ", <-ch)
-
-  fmt.Println("end...")
-
-  //start...
-  //🌲 data:  👋 Hi Nhung 👋 Hi Cuong
-  //before closing...
-  //after closing...
-  //🌳 data:
-  //end...
-
+  for {
+   v, ok := <- ch
+   if ok == true {
+     println(v, ok)
+   } else {
+     println("loop broke", v, ok)
+     break
+   }
+  }
+  //
+  //for v := range ch {
+  //  println(v)
+  //}
 }
 
-func sayHi(name string, ch chan string) {
-  ch <- "👋 Hi " + name
+func greet(ch chan string)  {
+  for i := 0; i < 7; i++ {
+    ch <- "Hello 🙆‍♀️"
+  }
+  close(ch)
 }
