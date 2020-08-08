@@ -16,6 +16,8 @@ Learn everything about Go <img height="20" alt="nyan_cat" src="./assets/nyan_cat
 - [Clean Go Code](https://github.com/Pungyeon/clean-go-article)
 - [How To Code in Go](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-go)
 - [Go cheatsheet](https://devhints.io/go)
+- [gophercises - FREE coding exercises for budding gophers](https://gophercises.com/)
+- [exercism.io - go](https://exercism.io/tracks/go)
 
 ## license
 
