@@ -1,8 +1,8 @@
 # 7-days-of-go
 
-<img src="./assets/gopher.jpeg" width="500" />
-
 Learn everything about Go <img height="20" alt="nyan_cat" src="./assets/nyan_cat.gif" /> in 7 days.
+
+<img src="./assets/gopher.jpeg" width="500" />
 
 ## roadmap
 
