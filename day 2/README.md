@@ -97,3 +97,4 @@ func sayHi(name string, ch chan string) {
 - [Using Command Line Flags in Go](https://flaviocopes.com/go-command-line-flags/)
 - [How To Use the Flag Package in Go](https://www.digitalocean.com/community/tutorials/how-to-use-the-flag-package-in-go)
 - [Switch to Go Modules from Go Dep](https://levelup.gitconnected.com/switch-to-go-modules-from-go-dep-fcdd4aa41bd5)
+- [Using Go Modules](https://blog.golang.org/using-go-modules)

@@ -1,8 +1,6 @@
-<img src="./assets/gopher.jpg" align="right" width="300" />
-
 # 7-days-of-go
 
-<img src="./assets/learn_go.png" width="500" />
+<img src="./assets/gopher.jpeg" width="500" />
 
 Learn everything about Go <img height="20" alt="nyan_cat" src="./assets/nyan_cat.gif" /> in 7 days.
 
