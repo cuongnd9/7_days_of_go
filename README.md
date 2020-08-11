@@ -21,6 +21,7 @@ Learn everything about Go <img height="20" alt="nyan_cat" src="./assets/nyan_cat
 - [Go cheatsheet](https://devhints.io/go)
 - [gophercises - FREE coding exercises for budding gophers](https://gophercises.com/)
 - [exercism.io - go](https://exercism.io/tracks/go)
+- [Awesome Go](https://github.com/avelino/awesome-go)
 
 ## 🦄 license
 
