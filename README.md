@@ -1,4 +1,4 @@
-# 7-days-of-go
+# 7_days_of_go
 
 Learn everything about Go <img height="20" alt="nyan_cat" src="./assets/nyan_cat.gif" /> in 7 days.
 
