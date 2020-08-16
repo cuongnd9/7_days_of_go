@@ -1,6 +1,6 @@
 ![banner](./assets/banner.png)
 
-*This artwork from [Wonkeen Gophers](https://github.com/QualitechOU/wonkeenGophers).*
+*the artwork created by [Wonkeen](https://github.com/QualitechOU/wonkeenGophers).*
 
 ## 🗺 roadmap
 
