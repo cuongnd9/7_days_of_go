@@ -1,0 +1,6 @@
+ pre-commit:
+   parallel: true
+   commands:
+     golangci-lint:
+       glob: "*.go"
+       run: golangci-lint run {staged_files}
