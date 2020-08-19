@@ -20,6 +20,7 @@
 - [gophercises - FREE coding exercises for budding gophers](https://gophercises.com/)
 - [exercism.io - go](https://exercism.io/tracks/go)
 - [Awesome Go](https://github.com/avelino/awesome-go)
+- [Eli Bendersky's website](https://eli.thegreenplace.net/)
 
 ## 🦄 license
 
