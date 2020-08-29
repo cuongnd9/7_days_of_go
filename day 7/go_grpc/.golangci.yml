@@ -1,0 +1,54 @@
+linters:
+  disable-all: true
+  enable:
+    - deadcode
+    - dupl
+    - errcheck
+    - funlen
+    - goconst
+    - gofmt
+    - goimports
+    - golint
+    - gomnd
+    - gosec
+    - govet
+    - interfacer
+    - lll
+    - scopelint
+    - structcheck
+    - stylecheck
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - varcheck
+    - whitespace
+
+linters-settings:
+  goimports:
+    local-prefixes: github.com/103cuong/go_template
+  govet:
+    check-shadowing: true
+    settings:
+      printf:
+        funcs:
+          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Infof
+          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Warnf
+          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Errorf
+          - (github.com/golangci/golangci-lint/pkg/logutils.Log).Fatalf
+  gomnd:
+    settings:
+      mnd:
+        # don't include the "operation" and "assign"
+        checks: argument,case,condition,return
+  dupl:
+    threshold: 100
+  funlen:
+    lines: 150
+    statements: 50
+  goconst:
+    min-len: 2
+    min-occurrences: 2
+
+issues:
+  exclude-use-default: false
