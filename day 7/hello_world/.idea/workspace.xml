@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72dc7fed-b868-4dc3-a7cc-e102ffb467c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.github/workflows/golangci-lint.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.golangci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.idea/go_template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.images/create.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.images/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.images/readall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/.images/update.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/api/proto/v1/todo-service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/cmd/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/cmd/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/pkg/api/v1/todo-service.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/pkg/cmd/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/pkg/protocol/grpc/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/pkg/service/v1/todo-service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/scripts/database/sql-scripts/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/scripts/database/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/any.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/descriptor.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/duration.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/empty.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/field_mask.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/source_context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/struct.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/timestamp.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/type.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/google/protobuf/wrappers.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go_grpc/third_party/protoc-gen.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/greeter.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protos/greeter.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/protoc-gen.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1glucqMZs7gSckFS1uHupWIUfUX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/server" />
+      <recent name="$PROJECT_DIR$/.images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
